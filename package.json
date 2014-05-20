@@ -1,0 +1,18 @@
+{
+  "name": "mofo_node_http_manipulator",
+  "version": "0.0.0",
+  "description": "MoFo redirector and proxy",
+  "main": "./lib/manipulator.js",
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/jdotpz/mofo_node_http_manipulator.git"
+  },
+  "url": "http://httpmanipulator.mofoprod.net",
+  "email": "devops@mozillafoundation.org",
+  "dependencies": {
+    "request": "~2.34.0",
+    "underscore": "*",
+    "http-proxy": "*"
+  }
+}
