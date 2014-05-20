@@ -1,0 +1,13 @@
+{
+  "port": 80,
+  "redirects": {
+    "localhost": {
+      "host": "http://localhost",
+      "code": 302
+    },
+    "*": {
+      "host": "http://www.google.com",
+      "code": 302
+    }
+  }
+}
