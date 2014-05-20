@@ -1,13 +1,34 @@
 {
   "port": 80,
   "redirects": {
-    "localhost": {
-      "host": "http://localhost",
-      "code": 302
+    "mozillopennews.org": {
+      "host": "http://opennews.org",
+      "code": 301
+    },
+    "knightmozilla.com": {
+      "host": "http://opennews.org",
+      "code": 301
+    },
+    "knightmozilla.org": {
+      "host": "http://opennews.org",
+      "code": 301
+    },
+    "chicagosummeroflearning.com": {
+      "host": "http://www.chicagosummeroflearning.org",
+      "code": 301
+    },
+    "discovery.openbadges.org": {
+      "host": "http://discover.openbadges.org",
+      "code": 301
+    },
+    "mozillafestival.org": {
+      "host": "http://2014.mozillafestival.org",
+      "code": 301
     },
     "*": {
-      "host": "http://www.google.com",
+      "host": "https://webmaker.org",
       "code": 302
     }
   }
 }
+
