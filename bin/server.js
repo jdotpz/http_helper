@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+if ( process.env.NEW_RELIC_ENABLED ) {
+  require( "newrelic" );
+}
 
 var config = require("nconf")
     .argv()
