@@ -57,6 +57,10 @@
       "host": "http://opsview.mofoprod.net:3000/viewport/Openbadges",
       "code": 301
     },
+    "stats.webmaker.org": {
+      "host": "https://mozillafoundation.geckoboard.com/dashboards/F62088172D822E2A",
+      "code": 302
+    },
     "performance.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/BFEBA42E00074683",
       "code": 302
