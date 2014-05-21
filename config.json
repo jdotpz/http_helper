@@ -21,6 +21,10 @@
       "host": "https://mozillafoundation.geckoboard.com/dashboards/CAA70010B0687966",
       "code": 301
     },
+    "dashboards.webmakerprototypes.org": {
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
+      "code": 301
+    },
     "mozillopennews.org": {
       "host": "http://opennews.org",
       "code": 301
