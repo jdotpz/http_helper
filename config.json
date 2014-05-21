@@ -5,6 +5,10 @@
       "host": "http://opennews.org",
       "code": 301
     },
+    "status.opennews.org": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/Opennews",
+      "code": 301
+    },
     "mozillopennews.org": {
       "host": "http://opennews.org",
       "code": 301
@@ -37,13 +41,25 @@
       "host": "http://www.chicagosummeroflearning.org",
       "code": 301
     },
+    "status.chicagosummeroflearning.org": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/CSOL",
+      "code": 301
+    },
     "discovery.openbadges.org": {
       "host": "http://discover.openbadges.org",
+      "code": 301
+    },
+    "status.openbadges.org": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/Openbadges",
       "code": 301
     },
     "performance.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/BFEBA42E00074683",
       "code": 302
+    },
+    "status.webmaker.org": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/Webmaker",
+      "code": 301
     },
     "mozillafestival.org": {
       "host": "http://2014.mozillafestival.org",
@@ -51,6 +67,22 @@
     },
     "www.mozillafestival.org": {
       "host": "http://2014.mozillafestival.org",
+      "code": 301
+    },
+    "status.mozillafestival.org": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/MozillaFestival",
+      "code": 301
+    },
+    "status.mozillascience.org": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/MozillaScience",
+      "code": 301
+    },
+    "status.studiomofo.org": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/StudioMofo",
+      "code": 301
+    },
+    "status.togetherjs.com": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/TogetherJS",
       "code": 301
     },
     "*": {
