@@ -21,6 +21,10 @@
       "host": "https://mozillafoundation.geckoboard.com/dashboards/CAA70010B0687966",
       "code": 301
     },
+    "status.webmakerprototypes.org": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/TeachTheWeb",
+      "code": 301
+    },
     "dashboards.webmakerprototypes.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
       "code": 301
@@ -65,6 +69,10 @@
       "host": "http://opsview.mofoprod.net:3000/viewport/Badgekit",
       "code": 301
     },
+    "dashboards.badgekit.org": {
+      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "code": 301
+    },
     "discovery.openbadges.org": {
       "host": "http://discover.openbadges.org",
       "code": 301
@@ -88,6 +96,10 @@
     "stats.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/F62088172D822E2A",
       "code": 302
+    },
+    "dashboards.webmaker.org": {
+      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "code": 301
     },
     "traffic.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/5FCC58FDA930E055",
