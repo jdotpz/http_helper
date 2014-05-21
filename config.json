@@ -10,7 +10,7 @@
       "code": 301
     },
     "dashboards.opennews.org": {
-      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
       "code": 301
     },
     "status.opennews.org": {
@@ -26,7 +26,7 @@
       "code": 301
     },
     "dashboards.webmakerprototypes.org": {
-      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
       "code": 301
     },
     "mozillopennews.org": {
@@ -70,7 +70,7 @@
       "code": 301
     },
     "dashboards.badgekit.org": {
-      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
       "code": 301
     },
     "discovery.openbadges.org": {
@@ -90,7 +90,7 @@
       "code": 301
     },
     "dashboards.openbadges.org": {
-      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
       "code": 301
     },
     "stats.webmaker.org": {
@@ -98,7 +98,7 @@
       "code": 302
     },
     "dashboards.webmaker.org": {
-      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
       "code": 301
     },
     "traffic.webmaker.org": {
@@ -118,7 +118,7 @@
       "code": 301
     },
     "dashboards.mozillafestival.org": {
-      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
       "code": 301
     },
     "www.mozillafestival.org": {
@@ -134,7 +134,7 @@
       "code": 301
     },
     "dashboards.mozillascience.org": {
-      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
       "code": 301
     },
     "status.studiomofo.org": {
@@ -142,7 +142,7 @@
       "code": 301
     },
     "dashboards.studomofo.org": {
-      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
       "code": 301
     },
     "status.togetherjs.com": {
@@ -150,7 +150,7 @@
       "code": 301
     },
     "dashboards.togetherjs.com": {
-      "host": "https://wiki.mozilla.org/Devops/dashboards#Mozilla_Foundation_DevOps_Friendly_List_of_Dashboards",
+      "host": "https://wiki.mozilla.org/Devops/dashboards",
       "code": 301
     },
     "*": {
