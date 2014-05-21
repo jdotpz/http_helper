@@ -45,6 +45,14 @@
       "host": "https://mozillafoundation.geckoboard.com/dashboards/BFEBA42E00074683",
       "code": 302
     },
+    "mozillafestival.org": {
+      "host": "http://2014.mozillafestival.org",
+      "code": 301
+    },
+    "www.mozillafestival.org": {
+      "host": "http://2014.mozillafestival.org",
+      "code": 301
+    },
     "*": {
       "host": "https://webmaker.org",
       "code": 302
