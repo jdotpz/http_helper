@@ -45,6 +45,10 @@
       "host": "http://opsview.mofoprod.net:3000/viewport/CSOL",
       "code": 301
     },
+    "status.badgekit.org": {
+      "host": "http://opsview.mofoprod.net:3000/viewport/Badgekit",
+      "code": 301
+    },
     "discovery.openbadges.org": {
       "host": "http://discover.openbadges.org",
       "code": 301
