@@ -5,6 +5,10 @@
       "host": "http://opennews.org",
       "code": 301
     },
+    "traffic.opennews.org": {
+      "host": "https://mozillafoundation.geckoboard.com/dashboards/9DAA540ED09C8406",
+      "code": 301
+    },
     "status.opennews.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/Opennews",
       "code": 301
@@ -53,6 +57,10 @@
       "host": "http://discover.openbadges.org",
       "code": 301
     },
+    "traffic.openbadges.org": {
+      "host": "https://mozillafoundation.geckoboard.com/dashboards/9905A586C868358D",
+      "code": 301
+    },
     "stats.openbadges.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/54478037A881E2CC",
       "code": 301
@@ -63,6 +71,10 @@
     },
     "stats.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/F62088172D822E2A",
+      "code": 302
+    },
+    "traffic.webmaker.org": {
+      "host": "https://mozillafoundation.geckoboard.com/dashboards/5FCC58FDA930E055",
       "code": 302
     },
     "performance.webmaker.org": {
