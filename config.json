@@ -1,7 +1,15 @@
 {
   "port": 80,
   "redirects": {
+    "www.opennews.org": {
+      "host": "http://opennews.org",
+      "code": 301
+    },
     "mozillopennews.org": {
+      "host": "http://opennews.org",
+      "code": 301
+    },
+    "www.mozillopennews.org": {
       "host": "http://opennews.org",
       "code": 301
     },
@@ -9,8 +17,20 @@
       "host": "http://opennews.org",
       "code": 301
     },
+    "www.knightmozilla.com": {
+      "host": "http://opennews.org",
+      "code": 301
+    },
     "knightmozilla.org": {
       "host": "http://opennews.org",
+      "code": 301
+    },
+    "www.knightmozilla.org": {
+      "host": "http://opennews.org",
+      "code": 301
+    },
+    "source.mozillaopennews.org": {
+      "host": "https://source.opennews.org",
       "code": 301
     },
     "chicagosummeroflearning.com": {
@@ -21,9 +41,9 @@
       "host": "http://discover.openbadges.org",
       "code": 301
     },
-    "mozillafestival.org": {
-      "host": "http://2014.mozillafestival.org",
-      "code": 301
+    "performance.webmaker.org": {
+      "host": "https://mozillafoundation.geckoboard.com/dashboards/BFEBA42E00074683",
+      "code": 302
     },
     "*": {
       "host": "https://webmaker.org",
