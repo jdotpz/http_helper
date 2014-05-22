@@ -1,5 +1,11 @@
 {
   "port": 80,
+  "monkeys": {
+    "www.opennews.org": {
+      "host": "http://opennews.org",
+      "code": 301
+    }
+  },
   "redirects": {
     "www.opennews.org": {
       "host": "http://opennews.org",

@@ -30,7 +30,8 @@
     "newrelic": "*",
     "messina": "0.1.1",
     "habitat": "*",
-    "request": "*"
+    "request": "*",
+    "express": "~4.3.0"
   },
   "devDependencies": {},
   "engines": {
