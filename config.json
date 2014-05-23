@@ -2,10 +2,9 @@
   "port": 80,
   "appOptions": {
     "localhost": {
-      "host": "https://google.com",
+      "host": "http://www.reddit.com/r/animalsbeingbros",
       "code": 301,
-      "function": "proxy",
-      "proxypath": "/"
+      "function": "proxy"
       },
     "www.opennews.org": {
       "host": "http://opennews.org",
@@ -42,7 +41,7 @@
       "code": 301,
       "function": "redirect"
       },
-    "mozillopennews.org": {
+    "mozillaopennews.org": {
       "host": "http://opennews.org",
       "code": 301,
       "function": "redirect"
