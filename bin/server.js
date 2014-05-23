@@ -7,5 +7,5 @@ var config = require("nconf")
     .argv()
     .file({file:__dirname+"/../config.json"});
 
-helperApp = require('../lib/brain')(config.get('appOptions'), config.get('port'));
+var helperApp = require('../lib/brain')(config.get('appOptions'), config.get('port'));
 console.log('Running application');
