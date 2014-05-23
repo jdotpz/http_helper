@@ -1,106 +1,136 @@
 {
   "port": 80,
-  "redirects": {
+  "appOptions": {
+    "localhost": {
+      "host": "https://google.com",
+      "code": 301,
+      "function": "proxy",
+      "proxypath": "/"
+      },
     "www.opennews.org": {
       "host": "http://opennews.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "traffic.opennews.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/9DAA540ED09C8406",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "dashboards.opennews.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "status.opennews.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/Opennews",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "traffic.webmakerprototypes.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/CAA70010B0687966",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "status.webmakerprototypes.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/TeachTheWeb",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "dashboards.webmakerprototypes.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "mozillopennews.org": {
       "host": "http://opennews.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "www.mozillaopennews.org": {
       "host": "http://opennews.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "knightmozilla.com": {
       "host": "http://opennews.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "www.knightmozilla.com": {
       "host": "http://opennews.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "knightmozilla.org": {
       "host": "http://opennews.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "www.knightmozilla.org": {
       "host": "http://opennews.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "source.mozillaopennews.org": {
       "host": "https://source.opennews.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "chicagosummeroflearning.com": {
       "host": "http://www.chicagosummeroflearning.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "status.chicagosummeroflearning.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/CSOL",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "status.badgekit.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/Badgekit",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "dashboards.badgekit.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "discovery.openbadges.org": {
       "host": "http://discover.openbadges.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "traffic.openbadges.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/9905A586C868358D",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "stats.openbadges.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/54478037A881E2CC",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "status.openbadges.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/Openbadges",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "dashboards.openbadges.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "stats.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/F62088172D822E2A",
       "code": 302
     },
     "dashboards.webmaker.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "traffic.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/5FCC58FDA930E055",
       "code": 302
@@ -111,48 +141,59 @@
     },
     "status.webmaker.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/Webmaker",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "mozillafestival.org": {
       "host": "http://2014.mozillafestival.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "dashboards.mozillafestival.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "www.mozillafestival.org": {
       "host": "http://2014.mozillafestival.org",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "status.mozillafestival.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/MozillaFestival",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "status.mozillascience.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/MozillaScience",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "dashboards.mozillascience.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "status.studiomofo.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/StudioMofo",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "dashboards.studomofo.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "status.togetherjs.com": {
       "host": "http://opsview.mofoprod.net:3000/viewport/TogetherJS",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "dashboards.togetherjs.com": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
-      "code": 301
-    },
+      "code": 301,
+      "function": "redirect"
+      },
     "*": {
       "host": "https://webmaker.org",
       "code": 302
