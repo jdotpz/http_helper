@@ -42,7 +42,7 @@
       "code": 301,
       "function": "redirect"
       },
-    "mozillopennews.org": {
+    "mozillaopennews.org": {
       "host": "http://opennews.org",
       "code": 301,
       "function": "redirect"
