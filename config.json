@@ -4,7 +4,7 @@
     "localhost": {
       "host": "https://google.com",
       "code": 301,
-      "function": "proxy",
+      "function": "redirect",
       "proxypath": "/"
       },
     "www.opennews.org": {
