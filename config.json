@@ -123,7 +123,8 @@
       },
     "stats.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/F62088172D822E2A",
-      "code": 302
+      "code": 301,
+      "function": "redirect"
     },
     "dashboards.webmaker.org": {
       "host": "https://wiki.mozilla.org/Devops/dashboards",
@@ -132,11 +133,13 @@
       },
     "traffic.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/5FCC58FDA930E055",
-      "code": 302
+      "code": 301,
+      "function": "redirect"
     },
     "performance.webmaker.org": {
       "host": "https://mozillafoundation.geckoboard.com/dashboards/BFEBA42E00074683",
-      "code": 302
+      "code": 301,
+      "function": "redirect"
     },
     "status.webmaker.org": {
       "host": "http://opsview.mofoprod.net:3000/viewport/Webmaker",
